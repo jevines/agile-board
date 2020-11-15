@@ -11,13 +11,13 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
     Click to add card
   </button>
   <section
-    class="sc-kEjbxe MeSxR"
+    class="sc-kEjbxe fEZOcV"
   >
     <section
       class="sc-eCssSg jmQFqn"
     >
       <h1
-        class="sc-jSgupP dhcVWK"
+        class="sc-jSgupP cMqrVE"
       >
         To Do
       </h1>
@@ -26,7 +26,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       class="sc-eCssSg jmQFqn"
     >
       <h1
-        class="sc-jSgupP dhcVWK"
+        class="sc-jSgupP cMqrVE"
       >
         In Progress
       </h1>
@@ -35,7 +35,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       class="sc-eCssSg jmQFqn"
     >
       <h1
-        class="sc-jSgupP dhcVWK"
+        class="sc-jSgupP cMqrVE"
       >
         QA
       </h1>
@@ -44,7 +44,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       class="sc-eCssSg jmQFqn"
     >
       <h1
-        class="sc-jSgupP dhcVWK"
+        class="sc-jSgupP cMqrVE"
       >
         Done
       </h1>

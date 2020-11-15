@@ -19,6 +19,7 @@ const Wrapper = styled.section`
 const CollumnWapper = styled.section`
   display: flex;
   flex-direction: row;
+  height: 100%;
 `;
 
 const AddCardButton = styled.button`

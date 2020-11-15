@@ -13,7 +13,7 @@ const Wrapper = styled.section`
 `;
 
 const Title = styled.h1`
-  font-size: 24;
+  font-size: 2rem;
   text-align: center;
 `;
 
