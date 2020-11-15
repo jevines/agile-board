@@ -2,138 +2,148 @@
 
 exports[`The Dashboard Component should match the snapshot 1`] = `
 <section
-  class="sc-gKsewC jJxQUn"
+  class="sc-pFZIQ hLaaHj"
 >
-  <section
-    class="sc-eCssSg foUHDZ"
+  <button
+    class="sc-kEjbxe jAugHf"
+    data-testid="addCardButton"
   >
-    <h1
-      class="sc-jSgupP dhcVWK"
-    >
-      To Do
-    </h1>
+    Click to add card
+  </button>
+  <section
+    class="sc-jrAGrp jbfmIi"
+  >
     <section
-      class="sc-bdfBwQ bCQgUO"
+      class="sc-eCssSg foUHDZ"
     >
-      <h2
-        class="sc-gsTCUz gzfVJk"
+      <h1
+        class="sc-jSgupP dhcVWK"
       >
-        mock task title
-      </h2>
-      <p
-        class="sc-dlfnbm bglaea"
+        To Do
+      </h1>
+      <section
+        class="sc-bdfBwQ bCQgUO"
       >
-        A mock description
-      </p>
-      <p
-        class="sc-hKgILt fLjEpC"
-      >
-        comment 1
-      </p>
-      <p
-        class="sc-hKgILt fLjEpC"
-      >
-        comment 2
-      </p>
+        <h2
+          class="sc-gsTCUz gzfVJk"
+        >
+          mock task title
+        </h2>
+        <p
+          class="sc-dlfnbm bglaea"
+        >
+          A mock description
+        </p>
+        <p
+          class="sc-hKgILt fLjEpC"
+        >
+          comment 1
+        </p>
+        <p
+          class="sc-hKgILt fLjEpC"
+        >
+          comment 2
+        </p>
+      </section>
     </section>
-  </section>
-  <section
-    class="sc-eCssSg foUHDZ"
-  >
-    <h1
-      class="sc-jSgupP dhcVWK"
-    >
-      In Progress
-    </h1>
     <section
-      class="sc-bdfBwQ bCQgUO"
+      class="sc-eCssSg foUHDZ"
     >
-      <h2
-        class="sc-gsTCUz gzfVJk"
+      <h1
+        class="sc-jSgupP dhcVWK"
       >
-        mock task title
-      </h2>
-      <p
-        class="sc-dlfnbm bglaea"
+        In Progress
+      </h1>
+      <section
+        class="sc-bdfBwQ bCQgUO"
       >
-        A mock description
-      </p>
-      <p
-        class="sc-hKgILt fLjEpC"
-      >
-        comment 1
-      </p>
-      <p
-        class="sc-hKgILt fLjEpC"
-      >
-        comment 2
-      </p>
+        <h2
+          class="sc-gsTCUz gzfVJk"
+        >
+          mock task title
+        </h2>
+        <p
+          class="sc-dlfnbm bglaea"
+        >
+          A mock description
+        </p>
+        <p
+          class="sc-hKgILt fLjEpC"
+        >
+          comment 1
+        </p>
+        <p
+          class="sc-hKgILt fLjEpC"
+        >
+          comment 2
+        </p>
+      </section>
     </section>
-  </section>
-  <section
-    class="sc-eCssSg foUHDZ"
-  >
-    <h1
-      class="sc-jSgupP dhcVWK"
-    >
-      QA
-    </h1>
     <section
-      class="sc-bdfBwQ bCQgUO"
+      class="sc-eCssSg foUHDZ"
     >
-      <h2
-        class="sc-gsTCUz gzfVJk"
+      <h1
+        class="sc-jSgupP dhcVWK"
       >
-        mock task title
-      </h2>
-      <p
-        class="sc-dlfnbm bglaea"
+        QA
+      </h1>
+      <section
+        class="sc-bdfBwQ bCQgUO"
       >
-        A mock description
-      </p>
-      <p
-        class="sc-hKgILt fLjEpC"
-      >
-        comment 1
-      </p>
-      <p
-        class="sc-hKgILt fLjEpC"
-      >
-        comment 2
-      </p>
+        <h2
+          class="sc-gsTCUz gzfVJk"
+        >
+          mock task title
+        </h2>
+        <p
+          class="sc-dlfnbm bglaea"
+        >
+          A mock description
+        </p>
+        <p
+          class="sc-hKgILt fLjEpC"
+        >
+          comment 1
+        </p>
+        <p
+          class="sc-hKgILt fLjEpC"
+        >
+          comment 2
+        </p>
+      </section>
     </section>
-  </section>
-  <section
-    class="sc-eCssSg foUHDZ"
-  >
-    <h1
-      class="sc-jSgupP dhcVWK"
-    >
-      Done
-    </h1>
     <section
-      class="sc-bdfBwQ bCQgUO"
+      class="sc-eCssSg foUHDZ"
     >
-      <h2
-        class="sc-gsTCUz gzfVJk"
+      <h1
+        class="sc-jSgupP dhcVWK"
       >
-        mock task title
-      </h2>
-      <p
-        class="sc-dlfnbm bglaea"
+        Done
+      </h1>
+      <section
+        class="sc-bdfBwQ bCQgUO"
       >
-        A mock description
-      </p>
-      <p
-        class="sc-hKgILt fLjEpC"
-      >
-        comment 1
-      </p>
-      <p
-        class="sc-hKgILt fLjEpC"
-      >
-        comment 2
-      </p>
+        <h2
+          class="sc-gsTCUz gzfVJk"
+        >
+          mock task title
+        </h2>
+        <p
+          class="sc-dlfnbm bglaea"
+        >
+          A mock description
+        </p>
+        <p
+          class="sc-hKgILt fLjEpC"
+        >
+          comment 1
+        </p>
+        <p
+          class="sc-hKgILt fLjEpC"
+        >
+          comment 2
+        </p>
+      </section>
     </section>
   </section>
 </section>

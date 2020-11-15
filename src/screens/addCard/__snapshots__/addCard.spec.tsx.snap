@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The AddCard screen should match the snapshot 1`] = `
+<section
+  class="sc-bdfBwQ cSqurG"
+  data-testid="addCardScreen"
+>
+  <input
+    class="sc-gsTCUz dQuXtS"
+    data-testid="titleInput"
+    value="title"
+  />
+  <input
+    class="sc-gsTCUz dQuXtS"
+    data-testid="descriptionInput"
+    value="description"
+  />
+  <input
+    class="sc-gsTCUz dQuXtS"
+    data-testid="commentsInput"
+    value="comments"
+  />
+  <button
+    class="sc-dlfnbm ceszxr"
+    data-testid="submitCardButton"
+  >
+    Submit
+  </button>
+</section>
+`;
