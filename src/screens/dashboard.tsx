@@ -25,6 +25,7 @@ const CollumnWapper = styled.section`
 const AddCardButton = styled.button`
   height: 5rem;
   background-color: white;
+  border-radius: 0.5rem;
   color: black;
   width: 15rem;
   margin: 2rem;
@@ -120,7 +121,7 @@ const Dashboard = () => {
         />
       </Modal>
       <AddCardButton data-testid="addCardButton" onClick={onAddCardHandler}>
-        Click to add card
+        Click to add new task...
       </AddCardButton>
       <CollumnWapper>
         <DragDropContext onDragEnd={onDragEnd}>

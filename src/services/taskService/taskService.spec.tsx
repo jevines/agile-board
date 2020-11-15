@@ -1,4 +1,3 @@
-import { ExitStatus } from "typescript";
 import { updateTasks, getTasks } from "./taskService";
 
 const setItemSpy = jest.spyOn(Storage.prototype, "setItem");
