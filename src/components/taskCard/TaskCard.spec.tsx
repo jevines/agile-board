@@ -11,7 +11,7 @@ describe("The TaskCard Component", () => {
 });
 
 export const mockTask = {
-  id: 876,
+  id: "876",
   title: "mock task title",
   description: "A mock description",
   comments: ["comment 1", "comment 2"],

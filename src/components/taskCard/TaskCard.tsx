@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export interface Task {
-  id: number;
+  id: string;
   title: string;
   description: string;
   comments: string[];
