@@ -9,7 +9,7 @@ const Wrapper = styled.section`
   background: black;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
 `;
 
 const CollumnWapper = styled.section`

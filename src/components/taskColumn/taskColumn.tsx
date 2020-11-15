@@ -4,6 +4,7 @@ import TaskCard, { Task } from "../taskCard/TaskCard";
 
 const Wrapper = styled.section`
   margin: 2rem;
+  padding: 2rem 0 2rem 0;
   width: 50rem;
   border: 1px solid white;
   border-radius: 10px;

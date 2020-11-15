@@ -13,7 +13,8 @@ const Wrapper = styled.section`
   flex-direction: column;
   background: white;
   border-radius: 0.5rem;
-  margin: 0 2rem 0 2rem;
+  margin: 2rem;
+  padding-left: 1rem;
 `;
 const TaskTitle = styled.h2`
   font-size: 20;

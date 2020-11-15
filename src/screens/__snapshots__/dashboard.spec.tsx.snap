@@ -2,19 +2,19 @@
 
 exports[`The Dashboard Component should match the snapshot 1`] = `
 <section
-  class="sc-pFZIQ hLaaHj"
+  class="sc-jrAGrp eGQwbA"
 >
   <button
-    class="sc-kEjbxe jAugHf"
+    class="sc-iqHYGH ja-dEZO"
     data-testid="addCardButton"
   >
     Click to add card
   </button>
   <section
-    class="sc-jrAGrp jbfmIi"
+    class="sc-kEjbxe MeSxR"
   >
     <section
-      class="sc-eCssSg foUHDZ"
+      class="sc-eCssSg jmQFqn"
     >
       <h1
         class="sc-jSgupP dhcVWK"
@@ -22,7 +22,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
         To Do
       </h1>
       <section
-        class="sc-bdfBwQ bCQgUO"
+        class="sc-bdfBwQ fFBvFt"
       >
         <h2
           class="sc-gsTCUz gzfVJk"
@@ -47,7 +47,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       </section>
     </section>
     <section
-      class="sc-eCssSg foUHDZ"
+      class="sc-eCssSg jmQFqn"
     >
       <h1
         class="sc-jSgupP dhcVWK"
@@ -55,7 +55,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
         In Progress
       </h1>
       <section
-        class="sc-bdfBwQ bCQgUO"
+        class="sc-bdfBwQ fFBvFt"
       >
         <h2
           class="sc-gsTCUz gzfVJk"
@@ -80,7 +80,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       </section>
     </section>
     <section
-      class="sc-eCssSg foUHDZ"
+      class="sc-eCssSg jmQFqn"
     >
       <h1
         class="sc-jSgupP dhcVWK"
@@ -88,7 +88,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
         QA
       </h1>
       <section
-        class="sc-bdfBwQ bCQgUO"
+        class="sc-bdfBwQ fFBvFt"
       >
         <h2
           class="sc-gsTCUz gzfVJk"
@@ -113,7 +113,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       </section>
     </section>
     <section
-      class="sc-eCssSg foUHDZ"
+      class="sc-eCssSg jmQFqn"
     >
       <h1
         class="sc-jSgupP dhcVWK"
@@ -121,7 +121,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
         Done
       </h1>
       <section
-        class="sc-bdfBwQ bCQgUO"
+        class="sc-bdfBwQ fFBvFt"
       >
         <h2
           class="sc-gsTCUz gzfVJk"

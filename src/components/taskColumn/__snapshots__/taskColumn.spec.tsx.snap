@@ -2,7 +2,7 @@
 
 exports[`The TaskCard Component should match the snapshot 1`] = `
 <section
-  class="sc-bdfBwQ bCQgUO"
+  class="sc-bdfBwQ fFBvFt"
 >
   <h2
     class="sc-gsTCUz gzfVJk"
@@ -29,7 +29,7 @@ exports[`The TaskCard Component should match the snapshot 1`] = `
 
 exports[`The TaskColumn Component should match the snapshot 1`] = `
 <section
-  class="sc-eCssSg foUHDZ"
+  class="sc-eCssSg jmQFqn"
 >
   <h1
     class="sc-jSgupP dhcVWK"
@@ -37,7 +37,7 @@ exports[`The TaskColumn Component should match the snapshot 1`] = `
     test title
   </h1>
   <section
-    class="sc-bdfBwQ bCQgUO"
+    class="sc-bdfBwQ fFBvFt"
   >
     <h2
       class="sc-gsTCUz gzfVJk"

@@ -5,20 +5,26 @@ import { Task } from "../../components/taskCard/TaskCard";
 const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
+  background: black;
+  color: black;
 `;
 
 const Input = styled.input`
   padding: 0.5em;
   margin: 0.5em;
-  color: palevioletred;
   background: papayawhip;
   border: none;
   border-radius: 3px;
 `;
 
-const SubmitButton = styled.button`
-  height: 5rem;
-  background-color: white;
+const ButtonWrapper = styled.section`
+  display: flex;
+`;
+
+const ModalButton = styled.button`
+  height: 2rem;
+  width: 100%;
+  background: white;
   color: black;
   width: 15rem;
   margin: 2rem;
@@ -69,9 +75,14 @@ const AddCard = ({ onSubmit, onClose }: AddCardProps) => {
           setComment([e.target.value])
         }
       />
-      <SubmitButton data-testid="submitCardButton" onClick={onSubmitHandler}>
-        Submit
-      </SubmitButton>
+      <ButtonWrapper>
+        <ModalButton data-testid="submitCardButton" onClick={onSubmitHandler}>
+          Submit
+        </ModalButton>
+        <ModalButton data-testid="closeCardButton" onClick={() => onClose()}>
+          Close
+        </ModalButton>
+      </ButtonWrapper>
     </Wrapper>
   );
 };

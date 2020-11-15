@@ -2,29 +2,39 @@
 
 exports[`The AddCard screen should match the snapshot 1`] = `
 <section
-  class="sc-bdfBwQ cSqurG"
+  class="sc-bdfBwQ kGwPjd"
   data-testid="addCardScreen"
 >
   <input
-    class="sc-gsTCUz dQuXtS"
+    class="sc-gsTCUz eXjfze"
     data-testid="titleInput"
     value="title"
   />
   <input
-    class="sc-gsTCUz dQuXtS"
+    class="sc-gsTCUz eXjfze"
     data-testid="descriptionInput"
     value="description"
   />
   <input
-    class="sc-gsTCUz dQuXtS"
+    class="sc-gsTCUz eXjfze"
     data-testid="commentsInput"
     value="comments"
   />
-  <button
-    class="sc-dlfnbm ceszxr"
-    data-testid="submitCardButton"
+  <section
+    class="sc-dlfnbm cyDqmn"
   >
-    Submit
-  </button>
+    <button
+      class="sc-hKgILt iyjSvv"
+      data-testid="submitCardButton"
+    >
+      Submit
+    </button>
+    <button
+      class="sc-hKgILt iyjSvv"
+      data-testid="closeCardButton"
+    >
+      Close
+    </button>
+  </section>
 </section>
 `;
