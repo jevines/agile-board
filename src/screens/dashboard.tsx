@@ -10,6 +10,7 @@ const Wrapper = styled.section`
 `;
 
 const taskPlaceHolder = {
+  id: 1235,
   title: "mock task title",
   description: "A mock description",
   comments: ["comment 1", "comment 2"],
