@@ -10,6 +10,7 @@ const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   height: 100%;
+  overflow-y: scroll;
 `;
 
 const CollumnWapper = styled.section`

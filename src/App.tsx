@@ -9,6 +9,9 @@ const GlobalStyle = createGlobalStyle`
   html {
     height: 100%;
   }
+  #root, #root > div {
+    height: 100%;
+  }
 `;
 
 function App() {
