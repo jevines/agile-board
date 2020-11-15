@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import TaskCard from "../taskCard/TaskCard";
+import TaskCard, { Task } from "../taskCard/TaskCard";
 
 const Wrapper = styled.section`
   margin: 2rem;
@@ -17,18 +17,15 @@ const Title = styled.h1`
 
 interface TaskColumnProps {
   title: string;
+  tasks: Task[];
 }
-const TaskColumn = ({ title }: TaskColumnProps) => {
+const TaskColumn = ({ title, tasks }: TaskColumnProps) => {
   return (
     <Wrapper>
       <Title>{title}</Title>
-      <TaskCard
-        task={{
-          title: "mock task title",
-          description: "A mock description",
-          comments: ["comment 1", "comment 2"],
-        }}
-      />
+      {tasks.map((task, index) => {
+        return <TaskCard key={`taskCard-${index}`} task={task} />;
+      })}
     </Wrapper>
   );
 };

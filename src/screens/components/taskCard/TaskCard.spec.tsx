@@ -10,7 +10,7 @@ describe("The TaskCard Component", () => {
   });
 });
 
-const mockTask = {
+export const mockTask = {
   title: "mock task title",
   description: "A mock description",
   comments: ["comment 1", "comment 2"],

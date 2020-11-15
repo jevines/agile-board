@@ -1,5 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`The TaskCard Component should match the snapshot 1`] = `
+<section
+  class="sc-bdfBwQ bCQgUO"
+>
+  <h2
+    class="sc-gsTCUz gzfVJk"
+  >
+    mock task title
+  </h2>
+  <p
+    class="sc-dlfnbm bglaea"
+  >
+    A mock description
+  </p>
+  <p
+    class="sc-hKgILt fLjEpC"
+  >
+    comment 1
+  </p>
+  <p
+    class="sc-hKgILt fLjEpC"
+  >
+    comment 2
+  </p>
+</section>
+`;
+
 exports[`The TaskColumn Component should match the snapshot 1`] = `
 <section
   class="sc-eCssSg foUHDZ"
