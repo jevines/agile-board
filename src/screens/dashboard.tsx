@@ -6,7 +6,21 @@ import TaskColumn from "./components/taskColumn/taskColumn";
 const Wrapper = styled.section`
   background: black;
   display: flex;
+  flex-direction: column;
   height: 100vh;
+`;
+
+const CollumnWapper = styled.section`
+  display: flex;
+  flex-direction: row;
+`;
+
+const AddCardButton = styled.button`
+  height: 5rem;
+  background-color: white;
+  color: black;
+  width: 15rem;
+  margin: 2rem;
 `;
 
 const taskPlaceHolder = {
@@ -24,12 +38,21 @@ const Dashboard = () => {
   const [qaTasks, setQATasks] = useState<Task[]>([taskPlaceHolder]);
   const [DoneTasks, setDoneTasks] = useState<Task[]>([taskPlaceHolder]);
 
+  const onAddCardHandler = () => {
+    console.log("clicked");
+  };
+
   return (
     <Wrapper>
-      <TaskColumn title="To Do" tasks={todoTasks} />
-      <TaskColumn title="In Progress" tasks={inProgressTasks} />
-      <TaskColumn title="QA" tasks={qaTasks} />
-      <TaskColumn title="Done" tasks={DoneTasks} />
+      <AddCardButton data-testid="addCardButton" onClick={onAddCardHandler}>
+        Click to add card
+      </AddCardButton>
+      <CollumnWapper>
+        <TaskColumn title="To Do" tasks={todoTasks} />
+        <TaskColumn title="In Progress" tasks={inProgressTasks} />
+        <TaskColumn title="QA" tasks={qaTasks} />
+        <TaskColumn title="Done" tasks={DoneTasks} />
+      </CollumnWapper>
     </Wrapper>
   );
 };

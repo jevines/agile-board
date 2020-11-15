@@ -7,6 +7,8 @@ describe("The Dashboard Component", () => {
     const { container } = renderDashboard();
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  describe("clicking the add card button", () => {});
 });
 
 const renderDashboard = () => {
