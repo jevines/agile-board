@@ -36,29 +36,40 @@ exports[`The TaskColumn Component should match the snapshot 1`] = `
   >
     test title
   </h1>
-  <section
-    class="sc-bdfBwQ fFBvFt"
+  <div
+    aria-describedby="rbd-hidden-text-0-hidden-text-0"
+    data-rbd-drag-handle-context-id="0"
+    data-rbd-drag-handle-draggable-id="876"
+    data-rbd-draggable-context-id="0"
+    data-rbd-draggable-id="876"
+    draggable="false"
+    role="button"
+    tabindex="0"
   >
-    <h2
-      class="sc-gsTCUz gzfVJk"
+    <section
+      class="sc-bdfBwQ fFBvFt"
     >
-      mock task title
-    </h2>
-    <p
-      class="sc-dlfnbm bglaea"
-    >
-      A mock description
-    </p>
-    <p
-      class="sc-hKgILt fLjEpC"
-    >
-      comment 1
-    </p>
-    <p
-      class="sc-hKgILt fLjEpC"
-    >
-      comment 2
-    </p>
-  </section>
+      <h2
+        class="sc-gsTCUz gzfVJk"
+      >
+        mock task title
+      </h2>
+      <p
+        class="sc-dlfnbm bglaea"
+      >
+        A mock description
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 1
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 2
+      </p>
+    </section>
+  </div>
 </section>
 `;

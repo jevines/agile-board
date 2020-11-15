@@ -1,7 +1,7 @@
 import React from "react";
-import { render } from "@testing-library/react";
 import TaskColumn from "./taskColumn";
 import { mockTask } from "../taskCard/TaskCard.spec";
+import { renderWithDragContext } from "../../screens/utils/testUtils";
 
 describe("The TaskColumn Component", () => {
   it("should match the snapshot", () => {
@@ -12,5 +12,7 @@ describe("The TaskColumn Component", () => {
 });
 
 const renderTaskColumn = () => {
-  return render(<TaskColumn title="test title" tasks={[mockTask]} />);
+  return renderWithDragContext(
+    <TaskColumn title="test title" tasks={[mockTask]} droppableId="testId" />
+  );
 };
