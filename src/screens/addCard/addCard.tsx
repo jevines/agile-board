@@ -37,8 +37,8 @@ interface AddCardProps {
 }
 
 const AddCard = ({ onSubmit, onClose }: AddCardProps) => {
-  const [title, setTitle] = useState<string>("");
-  const [description, setDescription] = useState<string>("");
+  const [title, setTitle] = useState<string>("New task...");
+  const [description, setDescription] = useState<string>("Description...");
   const [comments, setComment] = useState<string[]>([]);
 
   const onSubmitHandler = () => {

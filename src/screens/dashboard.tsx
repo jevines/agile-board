@@ -6,6 +6,7 @@ import Modal from "react-modal";
 import AddCard from "./addCard/addCard";
 import { DragDropContext, DropResult } from "react-beautiful-dnd";
 import { moveTask, reorderTaskList } from "../utils/listUtils";
+import { getTasks, updateTasks } from "../services/taskService/taskService";
 
 const Wrapper = styled.section`
   background: black;
@@ -46,12 +47,18 @@ const Dashboard = () => {
   const onSubmitCardHandler = (newTask: Task) => {
     setLists((state) => {
       state.todo.push(newTask);
+      updateTasks(state);
       return JSON.parse(JSON.stringify(state));
     });
   };
 
   useEffect(() => {
     Modal.setAppElement("body");
+    const tasksInStorage = getTasks();
+
+    if (tasksInStorage) {
+      setLists(tasksInStorage);
+    }
   }, []);
 
   const onDragEnd = (result: DropResult) => {
@@ -70,6 +77,7 @@ const Dashboard = () => {
       );
       setLists((state) => {
         state[source.droppableId] = items;
+        updateTasks(state);
         return JSON.parse(JSON.stringify(state));
       });
     } else {
@@ -83,6 +91,7 @@ const Dashboard = () => {
       setLists((state) => {
         state[source.droppableId] = sourceList;
         state[destination.droppableId] = destinationList;
+        updateTasks(state);
         return JSON.parse(JSON.stringify(state));
       });
     }

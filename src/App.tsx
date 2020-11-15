@@ -5,6 +5,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   body {
     height:100%;
+    font-family: "Courier New";
   }
   html {
     height: 100%;
