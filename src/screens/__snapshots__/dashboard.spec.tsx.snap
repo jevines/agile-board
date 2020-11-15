@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Dashboard Component should match the snapshot 1`] = `
+<section
+  class="sc-gKsewC jJxQUn"
+>
+  <section
+    class="sc-eCssSg foUHDZ"
+  >
+    <h1
+      class="sc-jSgupP dhcVWK"
+    >
+      To Do
+    </h1>
+    <section
+      class="sc-bdfBwQ bCQgUO"
+    >
+      <h2
+        class="sc-gsTCUz gzfVJk"
+      >
+        mock task title
+      </h2>
+      <p
+        class="sc-dlfnbm bglaea"
+      >
+        A mock description
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 1
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 2
+      </p>
+    </section>
+  </section>
+  <section
+    class="sc-eCssSg foUHDZ"
+  >
+    <h1
+      class="sc-jSgupP dhcVWK"
+    >
+      In Progress
+    </h1>
+    <section
+      class="sc-bdfBwQ bCQgUO"
+    >
+      <h2
+        class="sc-gsTCUz gzfVJk"
+      >
+        mock task title
+      </h2>
+      <p
+        class="sc-dlfnbm bglaea"
+      >
+        A mock description
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 1
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 2
+      </p>
+    </section>
+  </section>
+  <section
+    class="sc-eCssSg foUHDZ"
+  >
+    <h1
+      class="sc-jSgupP dhcVWK"
+    >
+      QA
+    </h1>
+    <section
+      class="sc-bdfBwQ bCQgUO"
+    >
+      <h2
+        class="sc-gsTCUz gzfVJk"
+      >
+        mock task title
+      </h2>
+      <p
+        class="sc-dlfnbm bglaea"
+      >
+        A mock description
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 1
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 2
+      </p>
+    </section>
+  </section>
+  <section
+    class="sc-eCssSg foUHDZ"
+  >
+    <h1
+      class="sc-jSgupP dhcVWK"
+    >
+      Done
+    </h1>
+    <section
+      class="sc-bdfBwQ bCQgUO"
+    >
+      <h2
+        class="sc-gsTCUz gzfVJk"
+      >
+        mock task title
+      </h2>
+      <p
+        class="sc-dlfnbm bglaea"
+      >
+        A mock description
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 1
+      </p>
+      <p
+        class="sc-hKgILt fLjEpC"
+      >
+        comment 2
+      </p>
+    </section>
+  </section>
+</section>
+`;
