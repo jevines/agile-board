@@ -2,7 +2,7 @@
 
 exports[`The Dashboard Component should match the snapshot 1`] = `
 <section
-  class="sc-jrAGrp eGQwbA"
+  class="sc-jrAGrp csIMFu"
 >
   <button
     class="sc-iqHYGH ja-dEZO"
@@ -21,30 +21,6 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       >
         To Do
       </h1>
-      <section
-        class="sc-bdfBwQ fFBvFt"
-      >
-        <h2
-          class="sc-gsTCUz gzfVJk"
-        >
-          mock task title
-        </h2>
-        <p
-          class="sc-dlfnbm bglaea"
-        >
-          A mock description
-        </p>
-        <p
-          class="sc-hKgILt fLjEpC"
-        >
-          comment 1
-        </p>
-        <p
-          class="sc-hKgILt fLjEpC"
-        >
-          comment 2
-        </p>
-      </section>
     </section>
     <section
       class="sc-eCssSg jmQFqn"
@@ -54,30 +30,6 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       >
         In Progress
       </h1>
-      <section
-        class="sc-bdfBwQ fFBvFt"
-      >
-        <h2
-          class="sc-gsTCUz gzfVJk"
-        >
-          mock task title
-        </h2>
-        <p
-          class="sc-dlfnbm bglaea"
-        >
-          A mock description
-        </p>
-        <p
-          class="sc-hKgILt fLjEpC"
-        >
-          comment 1
-        </p>
-        <p
-          class="sc-hKgILt fLjEpC"
-        >
-          comment 2
-        </p>
-      </section>
     </section>
     <section
       class="sc-eCssSg jmQFqn"
@@ -87,30 +39,6 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       >
         QA
       </h1>
-      <section
-        class="sc-bdfBwQ fFBvFt"
-      >
-        <h2
-          class="sc-gsTCUz gzfVJk"
-        >
-          mock task title
-        </h2>
-        <p
-          class="sc-dlfnbm bglaea"
-        >
-          A mock description
-        </p>
-        <p
-          class="sc-hKgILt fLjEpC"
-        >
-          comment 1
-        </p>
-        <p
-          class="sc-hKgILt fLjEpC"
-        >
-          comment 2
-        </p>
-      </section>
     </section>
     <section
       class="sc-eCssSg jmQFqn"
@@ -120,30 +48,6 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
       >
         Done
       </h1>
-      <section
-        class="sc-bdfBwQ fFBvFt"
-      >
-        <h2
-          class="sc-gsTCUz gzfVJk"
-        >
-          mock task title
-        </h2>
-        <p
-          class="sc-dlfnbm bglaea"
-        >
-          A mock description
-        </p>
-        <p
-          class="sc-hKgILt fLjEpC"
-        >
-          comment 1
-        </p>
-        <p
-          class="sc-hKgILt fLjEpC"
-        >
-          comment 2
-        </p>
-      </section>
     </section>
   </section>
 </section>

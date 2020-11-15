@@ -4,6 +4,8 @@ import { Task } from "../components/taskCard/TaskCard";
 import TaskColumn from "../components/taskColumn/taskColumn";
 import Modal from "react-modal";
 import AddCard from "./addCard/addCard";
+import { DragDropContext, DropResult } from "react-beautiful-dnd";
+import { moveTask, reorderTaskList } from "../utils/listUtils";
 
 const Wrapper = styled.section`
   background: black;
@@ -26,36 +28,65 @@ const AddCardButton = styled.button`
   margin: 2rem;
 `;
 
-const taskPlaceHolder = {
-  id: 1235,
-  title: "mock task title",
-  description: "A mock description",
-  comments: ["comment 1", "comment 2"],
+const initListState = {
+  todo: [],
+  inProgress: [],
+  qa: [],
+  done: [],
 };
 
 const Dashboard = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [todoTasks, setTodoTasks] = useState<Task[]>([taskPlaceHolder]);
-  const [inProgressTasks, setInProgressTasks] = useState<Task[]>([
-    taskPlaceHolder,
-  ]);
-  const [qaTasks, setQATasks] = useState<Task[]>([taskPlaceHolder]);
-  const [DoneTasks, setDoneTasks] = useState<Task[]>([taskPlaceHolder]);
+  const [lists, setLists] = useState<{ [key: string]: Task[] }>(initListState);
 
   const onAddCardHandler = () => {
     setIsModalOpen(true);
   };
 
   const onSubmitCardHandler = (newTask: Task) => {
-    setTodoTasks((state) => {
-      state.push(newTask);
-      return state;
+    setLists((state) => {
+      state.todo.push(newTask);
+      return JSON.parse(JSON.stringify(state));
     });
   };
 
   useEffect(() => {
     Modal.setAppElement("body");
   }, []);
+
+  const onDragEnd = (result: DropResult) => {
+    const { source, destination } = result;
+
+    // dropped outside the list
+    if (!destination) {
+      return;
+    }
+
+    if (source.droppableId === destination.droppableId) {
+      const items = reorderTaskList(
+        lists[destination.droppableId],
+        source.index,
+        destination.index
+      );
+      setLists((state) => {
+        state[source.droppableId] = items;
+        return JSON.parse(JSON.stringify(state));
+      });
+    } else {
+      const { sourceList, destinationList } = moveTask(
+        lists[source.droppableId],
+        lists[destination.droppableId],
+        source.index,
+        destination.index
+      );
+
+      setLists((state) => {
+        state[source.droppableId] = sourceList;
+        state[destination.droppableId] = destinationList;
+        return JSON.parse(JSON.stringify(state));
+      });
+    }
+  };
 
   return (
     <Wrapper>
@@ -82,10 +113,16 @@ const Dashboard = () => {
         Click to add card
       </AddCardButton>
       <CollumnWapper>
-        <TaskColumn title="To Do" tasks={todoTasks} />
-        <TaskColumn title="In Progress" tasks={inProgressTasks} />
-        <TaskColumn title="QA" tasks={qaTasks} />
-        <TaskColumn title="Done" tasks={DoneTasks} />
+        <DragDropContext onDragEnd={onDragEnd}>
+          <TaskColumn title="To Do" tasks={lists.todo} droppableId="todo" />
+          <TaskColumn
+            title="In Progress"
+            tasks={lists.inProgress}
+            droppableId="inProgress"
+          />
+          <TaskColumn title="QA" tasks={lists.qa} droppableId="qa" />
+          <TaskColumn title="Done" tasks={lists.done} droppableId="done" />
+        </DragDropContext>
       </CollumnWapper>
     </Wrapper>
   );

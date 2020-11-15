@@ -1,4 +1,3 @@
-import { Task } from "../components/taskCard/TaskCard";
 import { moveTask, reorderTaskList } from "./listUtils";
 const mockList = [1, 2, 3, 4];
 

@@ -1,7 +1,7 @@
 import React from "react";
 import TaskColumn from "./taskColumn";
 import { mockTask } from "../taskCard/TaskCard.spec";
-import { renderWithDragContext } from "../../screens/utils/testUtils";
+import { renderWithDragContext } from "../../utils/testUtils";
 
 describe("The TaskColumn Component", () => {
   it("should match the snapshot", () => {

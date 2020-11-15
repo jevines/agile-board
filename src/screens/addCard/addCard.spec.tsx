@@ -7,7 +7,7 @@ const mockDescription = "A Mock description";
 const mockComments = ["mock comment 1"];
 
 const expectedTask = {
-  id: 1234,
+  id: expect.any(String),
   title: mockTitle,
   description: mockDescription,
   comments: mockComments,

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { v4 as uuidv4 } from "uuid";
 import { Task } from "../../components/taskCard/TaskCard";
 
 const Wrapper = styled.section`
@@ -42,9 +43,8 @@ const AddCard = ({ onSubmit, onClose }: AddCardProps) => {
 
   const onSubmitHandler = () => {
     // add error handling and UX for missing required fields
-
     onSubmit({
-      id: 1234,
+      id: uuidv4(),
       title,
       description,
       comments,
