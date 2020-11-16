@@ -23,7 +23,7 @@ const CollumnWapper = styled.section`
 `;
 
 const AddCardButton = styled.button`
-  height: 5rem;
+  min-height: 5rem;
   background-color: white;
   border-radius: 0.5rem;
   color: black;
@@ -31,7 +31,7 @@ const AddCardButton = styled.button`
   margin: 2rem;
 `;
 
-const initListState = {
+const initListState: { [key: string]: Task[] } = {
   todo: [],
   inProgress: [],
   qa: [],

@@ -5,7 +5,7 @@ exports[`The Dashboard Component should match the snapshot 1`] = `
   class="sc-jrAGrp csIMFu"
 >
   <button
-    class="sc-iqHYGH flWsIF"
+    class="sc-iqHYGH jvjucy"
     data-testid="addCardButton"
   >
     Click to add new task...
