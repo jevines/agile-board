@@ -1,5 +1,9 @@
 {
-  "name": "to-do",
+  "name": "agile-board",
+  "author": {
+    "name": "Joshua Vines",
+    "email": "josh@jevines.co.uk"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
